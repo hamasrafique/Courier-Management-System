@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Management</title>
+    <link rel="stylesheet" href="newMainpage.css">
+</head>
+<body>
+    <div>
+        <div id="navbar">
+            <div id="logo">
+                <img src="newlogo-removebg-preview (1).png" alt="PakistanCouriers">
+            </div>
+            <ul>
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="aboutUs.html">About Us</a></li>
+                <li class="item"><a href="contactUs.html">Contact Us</a></li>
+                <li class="item"><a href="index.html">LogOut</a></li>
+            </ul>
+        </div>
+        </div>
+
+        <h1 class="hh"><b>Welcome to PakistanCouriers</b></h1>
+        <div class="body111">
+        <section class="about-us">
+            <!-- <h2><b>About Us</b></h2> -->
+        <p id="aboutusP1">We are a courier company dedicated to providing reliable delivery services since 2001. With over two decades of experience, we have been serving our customers with dedication and commitment.</p>
+        
+        <!-- <h3 id="aboutusH1">Our History</h2> -->
+        <p id="aboutusP1">Established in 2001, our company started with a vision to revolutionize the courier industry by providing efficient and cost-effective delivery solutions. Since then, we have grown steadily, expanding our network and services to meet the evolving needs of our customers.</p>
+        
+        <!-- <h3 id="aboutusH1">Our Mission</h2> -->
+        <p id="aboutusP1">Our mission is to deliver excellence in every parcel we handle. We strive to exceed our customers' expectations by providing timely deliveries, personalized service, and innovative solutions.</p>
+        </div>
+        <div id="aboutUs">
+        <h3 id="aboutusP1">We are :</h2>
+        <ul id="aboutusP1">
+            <li>Reliable and timely deliverying company</li>
+            <li>Extensive network coverage</li>
+            <li>Professional and friendly staff</li>
+            <li>Advanced tracking and technology</li>
+            <li>Competitive pricing</li>
+        </ul>
+        
+        <h3 id="aboutusH1">Contact Us</h2>
+        <p id="aboutusP1">If you have any inquiries or need assistance, feel free to contact us:</p>
+        <p id="aboutusP1">Email: info@yourcouriercompany.com</p>
+        <p id="aboutusP1">Phone: +1 92994466373</p>
+        </section>
+        <br><br>
+        <section id="services-container">
+            <h1 class="h-primary center" style="color: rgb(254, 255, 255);">Our Services</h1>
+            <div id="services">
+                <div class="box">
+                 <!-- <img src="bg3.jpg.png" alt=""> -->
+                    <h2 class="h-secondary center">InCity Courier Service</h2>
+                    <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <br>
+                <div class="box">
+                    <!-- <img src="bg4.png" alt=""> -->
+                    <h2 class="h-secondary center">Home Shifting Service</h2>
+                    <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <br>
+                <div class="box">
+                    <!-- <img src="international.jpg" alt="International"> -->
+                    <h2 class="h-secondary center">International Courier Service</h2>
+                    <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <br>
+        
+        <section class="place-courier">
+            <h2>Place Courier</h2>
+            <form id="courierForm">
+                <div class="form-group">
+                    <label for="senderName">Sender Name</label>
+                    <input type="text" id="senderName" name="senderName" required>
+                </div>
+                <div class="form-group">
+                    <label for="receiverName">Receiver Name</label>
+                    <input type="text" id="receiverName" name="receiverName" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">PickUp Address</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="packageDetails">Delivery Address</label>
+                    <textarea id="packageDetails" name="packageDetails" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="packageDetails">Package Details</label>
+                    <textarea id="packageDetails" name="packageDetails" required></textarea>
+                </div>
+                <button type="submit">Place Courier</button>
+            </form>
+            <div id="courierMessage" style="display: none;">
+                <h2>Thank You!</h2>
+                <p>Thank you for believing in us. Your courier has been added and we'll pick up soon. Your tracking number is <span id="trackingNumber"></span>.</p>
+            </div>
+        </section>
+
+        <section class="track-courier">
+            <h2>Track Courier</h2>
+            <form id="trackingForm">
+                <div class="form-group">
+                    <label for="trackingInput">Enter Tracking Number</label>
+                    <input type="text" id="trackingInput" name="trackingInput" required>
+                </div>
+                <button type="submit">Track</button>
+            </form>
+            <div id="trackingDetails" style="display: none;">
+                <h2>Courier Details</h2>
+                <p id="courierDetails"></p>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:support@pakistancourier.com">support@pakistancourier.com</a></p>
+                    <p>Phone: +92 771378318312</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p><a href="https://facebook.com/yourcouriermanagement">Facebook</a></p>
+                    <p><a href="https://twitter.com/couriermgmt">Twitter</a></p>
+                    <p><a href="https://linkedin.com/company/yourcouriermanagement">LinkedIn</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Office Address</h3>
+                    <p>Pakistan Courier Inc.</p>
+                    <p>1234 Courier Lane</p>
+                    <p>City, State, ZIP Code</p>
+                    <p>Pakistan</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pakistan Courier. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="newMainpage.js"></script>
+</body>
+</html>

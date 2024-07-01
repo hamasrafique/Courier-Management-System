@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Your Courier Management</title>
+  <link rel="stylesheet" href="contactUs.css">
+</head>
+<body>
+  <div id="navbar">
+    <div id="logo">
+        <img src="newlogo-removebg-preview (1).png" alt="PakistanCouriers">
+    </div>
+    <ul>
+        <li class="item"><a href="index.html">Home</a></li>
+        <li class="item"><a href="aboutUs.html">About Us</a></li>
+        <li class="item"><a href="signIn.html">Sign In </a></li>
+    </ul>
+</div>
+</div>
+  <div class="container">
+    <h1>Contact Us</h1>
+    
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <div class="info-block">
+        <h3>Customer Support</h3>
+        <p style="color: aliceblue;"><strong>Email:</strong> <a href="mailto:support@yourcouriermanagement.com">support@yourcouriermanagement.com</a></p>
+        <p  style="color: aliceblue;"><strong>Phone:</strong> +92 771378318312</p>
+        <p  style="color: aliceblue;"><strong>Live Chat:</strong> Available 24/7 (Click on the chat icon at the bottom right corner)</p>
+      </div>
+      <div class="info-block">
+        <h3>Business Inquiries</h3>
+        <p  style="color: aliceblue;"><strong>Email:</strong> <a href="mailto:business@yourcouriermanagement.com">business@yourcouriermanagement.com</a></p>
+        <p  style="color: aliceblue;"><strong>Phone:</strong>  +92 771378318312</p>
+      </div>
+      <div class="info-block">
+        <h3>Address</h3>
+        <p  style="color: aliceblue;">Your Courier Management Inc.<br>1234 Courier Lane<br>City, State, ZIP Code<br>Pakistan</p>
+      </div>
+      <div class="info-block">
+        <h3>Office Hours</h3>
+        <p  style="color: aliceblue;"><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</p>
+        <p  style="color: aliceblue;"><strong>Saturday:</strong> 10:00 AM - 4:00 PM</p>
+        <p  style="color: aliceblue;"><strong>Sunday:</strong> Closed</p>
+      </div>
+    </div>
+    
+    <div class="contact-form">
+      <h2>Contact Form</h2>
+      <form action="/submit_form" method="POST">
+        <label for="name"  style="color: aliceblue;">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email"  style="color: aliceblue;">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone"  style="color: aliceblue;">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        
+        <label for="message"  style="color: aliceblue;">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+        
+        <button type="submit">Submit</button>
+        <div id="thankYouMessage" style="display: none;">
+          <h2>Thank You! <br>Your message has been submitted successfully.</h2>
+          <p></p>
+      </div>
+      <script src="contactUs.js"></script>
+  </div>
+      </form>
+    </div>
+    
+    <div class="follow-us">
+      <h2>Follow Us</h2>
+      <p  style="color: aliceblue;">Stay connected and updated through our social media channels:</p>
+      <p style="color: aliceblue;"><a href="https://facebook.com/yourcouriermanagement">Facebook</a></p>
+      <p style="color: aliceblue;"><a href="https://twitter.com/couriermgmt">Twitter</a></p>
+      <p style="color: aliceblue;"><a href="https://linkedin.com/company/yourcouriermanagement">LinkedIn</a></p>
+    </div>
+    
+    <section class="map">
+      <h2>Map and Directions</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924247.1447942505!2d66.49592373366936!3d25.19174024786917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1716218169769!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </section>
+  </div>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:support@pakistancourier.com">support@pakistancourier.com</a></p>
+                <p>Phone: +92 771378318312</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p><a href="https://facebook.com/yourcouriermanagement">Facebook</a></p>
+                <p><a href="https://twitter.com/couriermgmt">Twitter</a></p>
+                <p><a href="https://linkedin.com/company/yourcouriermanagement">LinkedIn</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Office Address</h3>
+                <p>Pakistan Courier Inc.</p>
+                <p>1234 Courier Lane</p>
+                <p>City, State, ZIP Code</p>
+                <p>Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pakistan Courier. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+  
+
+</body>
+</html>
